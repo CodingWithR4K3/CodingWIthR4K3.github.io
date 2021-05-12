@@ -1,4 +1,4 @@
-(document).ready(function () {
+$(document).ready(function () {
     const apiRoot = 'https://protected-caverns-55479.herokuapp.com/v1/task/';
     const trelloApiRoot = 'https://protected-caverns-55479.herokuapp.com/v1/trello/';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
